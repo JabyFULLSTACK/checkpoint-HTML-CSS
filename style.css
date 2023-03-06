@@ -1,0 +1,92 @@
+body{
+font-family: 'Source code pro',calibri, serif;
+}
+
+
+.menu img{
+width:268px ;
+height: 33px;
+margin-left: 67px;
+}
+
+.petit-logo{
+margin: 0 auto;
+}
+
+.menu{
+display: flex;
+justify-content:space-between;
+padding: 15px;
+align-items: center;
+font-size: 18px;
+}
+
+.second-menu a{
+text-decoration: none;
+color: #484551;
+font-size: 18px;
+}
+
+.second-menu a:hover{
+color: #0ba558;
+}
+
+.second-menu{
+display: flex;
+justify-content: space-around;
+width: 30%;
+list-style: none;
+align-items: center;
+font-size: 18px;
+}
+
+.scroll-button{
+font-size: 16px;
+border: none;
+}
+
+.submenu{
+display:none;
+position: absolute;
+background-color: #fff9ff;
+min-width: 160px;
+box-shadow: 0px, 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+right: 8%;
+}
+
+.submenu a{
+color:black ;
+padding: 12px 10px;
+text-decoration: none;
+display: block;
+}
+
+.submenu a:hover{
+background-color: #fff9ff;
+
+}
+
+.scroll-menu:hover .submenu{
+display: block;
+}
+
+
+.paragraph{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 40px;
+font-size: 24px;
+}
+
+.slogan-titre{
+font-family:"source code pro", Arial, Helvetica, sans-serif;
+font-size: 34px;
+color: #0ba558;
+}
+footer{
+background-color: #e8e8e6;
+margin-top: 15px;
+height: 70px;
+}
